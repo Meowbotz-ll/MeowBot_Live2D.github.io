@@ -80,3 +80,8 @@ footer {
     box-shadow: 5px 5px 15px rgba(0,0,0,0.2); /* Optional: Enhances shadow on hover */
 }
 
+.gallery .artwork {
+    height: 500px; /* Fixed height */
+    width: auto; /* Width is set to auto to maintain the aspect ratio */
+    object-fit: cover; /* This ensures the image covers the area without stretching */
+}
