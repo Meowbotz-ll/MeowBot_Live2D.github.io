@@ -1,0 +1,82 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+    transition: background-color 0.5s;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem;
+}
+
+/* Gallery Styles */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Gallery Artwork Styles */
+.gallery .artwork {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border: 1px solid #ccc; /* Optional: Adds a light border around the artwork */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow for depth */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Optional: Adds a transition for the hover effect */
+}
+
+.gallery .artwork:hover {
+    transform: scale(1.05); /* Optional: Scales up artwork on hover */
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2); /* Optional: Enhances shadow on hover */
+}
+
